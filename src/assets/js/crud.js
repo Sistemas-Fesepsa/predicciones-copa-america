@@ -126,7 +126,7 @@ btnRegistrarPrediccion.onclick = async function(){
     btnRegistrarPrediccion.disabled = "false"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones6")
+    await crearPrediccion(objetoPrediccion,"predicciones7")
     
     
     Swal.fire(
