@@ -14,12 +14,23 @@
 from "https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js"
  // Your web app's Firebase configuration
  const firebaseConfig = {
+  apiKey: "AIzaSyDnF12J-DEpIsSpqqoJdOMygYlrdTnWikE",
+  authDomain: "predicciones-copa-americ-a6e02.firebaseapp.com",
+  databaseURL: "https://predicciones-copa-americ-a6e02-default-rtdb.firebaseio.com",
+  projectId: "predicciones-copa-americ-a6e02",
+  storageBucket: "predicciones-copa-americ-a6e02.appspot.com",
+  messagingSenderId: "1017496012098",
+  appId: "1:1017496012098:web:3eb730c0b8741184f8f4db",
+  /*
+  antigua xd
+  measurementId: "G-59TFKYKLPD"
    apiKey: "AIzaSyB2NvxYcVC0maI1SoweqdqOKlRoEgtYpBs",
    authDomain: "predictorpartidos.firebaseapp.com",
    projectId: "predictorpartidos",
    storageBucket: "predictorpartidos.appspot.com",
    messagingSenderId: "675358672788",
    appId: "1:675358672788:web:be8107e408b79c2aa43181"
+  */
  };
 
  // Initialize Firebase
