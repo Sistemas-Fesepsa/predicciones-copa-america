@@ -58,11 +58,11 @@ if(!dni){
 //peru_paraguay.disabled = "false"
 //peru_paraguay.style.background = "#ccc"
 
-//chile_peru.disabled = "true"
-//chile_peru.style.background = "#ccc"
+chile_peru.disabled = "true"
+chile_peru.style.background = "#ccc"
 
-//peru_chile.disabled = "true"
-//peru_chile.style.background = "#ccc"
+peru_chile.disabled = "true"
+peru_chile.style.background = "#ccc"
 
 
 //BLOQUEO SEGUNDA FECHA
