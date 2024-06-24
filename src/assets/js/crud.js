@@ -101,7 +101,7 @@ argentina_peru.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-06-21T18:30:00");
+    let fechaLimite = new Date("2024-06-25T16:30:00");
     
    
     
