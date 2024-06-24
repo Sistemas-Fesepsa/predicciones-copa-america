@@ -66,11 +66,11 @@ peru_chile.style.background = "#ccc"
 
 
 //BLOQUEO SEGUNDA FECHA
-peru_canada.disabled = "true"
-peru_canada.style.background = "#ccc"
+//peru_canada.disabled = "true"
+//peru_canada.style.background = "#ccc"
 
-canada_peru.disabled = "true"
-canada_peru.style.background = "#ccc"
+//canada_peru.disabled = "true"
+//canada_peru.style.background = "#ccc"
 
 //brasil_peru.disabled = "false"
 //brasil_peru.style.background = "#ccc"
@@ -119,14 +119,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorPeru: peru_chile.value,         
-         marcadorChile: chile_peru.value
+         marcadorCanada: canada_peru.value,         
+         marcadorPeru: peru_canada.value
    }
 
     btnRegistrarPrediccion.disabled = "false"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones7")
+    await crearPrediccion(objetoPrediccion,"predicciones8")
     
     
     Swal.fire(
