@@ -135,7 +135,7 @@ btnRegistrarPrediccion.onclick = async function(){
         'success'
       )
 
-      btnRegistrarPrediccion.disabled = "true"
+      btnRegistrarPrediccion.disabled = "false"
       btnRegistrarPrediccion.style.opacity = "1" 
       
 }
