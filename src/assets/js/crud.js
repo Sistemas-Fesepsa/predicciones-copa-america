@@ -123,7 +123,7 @@ btnRegistrarPrediccion.onclick = async function(){
          marcadorPeru: peru_argentina.value
    }
 
-    btnRegistrarPrediccion.disabled = "false"
+    btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
     await crearPrediccion(objetoPrediccion,"predicciones9")
