@@ -120,7 +120,7 @@ btnRegistrarPrediccion.onclick = async function(){
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
          marcadorArgentina: argentina_peru.value,         
-         marcadorPeru: peru_canada.value
+         marcadorPeru: peru_argentina.value
    }
 
     btnRegistrarPrediccion.disabled = "false"
