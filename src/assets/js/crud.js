@@ -77,11 +77,11 @@ canada_peru.style.background = "#ccc"
 
 
 //BLOQUEO TERCERA FECHA
-peru_argentina.disabled = "true"
-peru_argentina.style.background = "#ccc"
+//peru_argentina.disabled = "true"
+//peru_argentina.style.background = "#ccc"
 
-argentina_peru.disabled = "true"
-argentina_peru.style.background = "#ccc"
+//argentina_peru.disabled = "true"
+//argentina_peru.style.background = "#ccc"
 
 //BLOQUEO QUINTA FECHA
 //bolivia_peru.disabled = "true"
@@ -101,7 +101,7 @@ argentina_peru.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-06-25T16:30:00");
+    let fechaLimite = new Date("2024-06-29T18:30:00");
     
    
     
@@ -126,7 +126,7 @@ btnRegistrarPrediccion.onclick = async function(){
     btnRegistrarPrediccion.disabled = "false"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones8")
+    await crearPrediccion(objetoPrediccion,"predicciones9")
     
     
     Swal.fire(
