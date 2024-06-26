@@ -66,11 +66,11 @@ peru_chile.style.background = "#ccc"
 
 
 //BLOQUEO SEGUNDA FECHA
-//peru_canada.disabled = "true"
-//peru_canada.style.background = "#ccc"
+peru_canada.disabled = "true"
+peru_canada.style.background = "#ccc"
 
-//canada_peru.disabled = "true"
-//canada_peru.style.background = "#ccc"
+canada_peru.disabled = "true"
+canada_peru.style.background = "#ccc"
 
 //brasil_peru.disabled = "false"
 //brasil_peru.style.background = "#ccc"
