@@ -18,20 +18,20 @@ const btnRegistrarPrediccion = document.getElementById("btn-prediccion");
 const btnSalir = document.getElementById("salir")
 
 // PRIMERA RONDA 
-const chile_peru = document.getElementById("chile-peru")
-const peru_chile = document.getElementById("peru-chile")
+const colombia_peru = document.getElementById("colombia-peru")
+const peru_colombia = document.getElementById("peru-colombia")
 
 //SEGUNDA RONDA
 //const peru_brasil = document.getElementById("peru-brasil") 
 //const brasil_peru = document.getElementById("brasil-peru") 
 
 //TERCERA RONDA
-const canada_peru = document.getElementById("canada-peru") 
-const peru_canada = document.getElementById("peru-canada") 
+const ecuador_peru = document.getElementById("ecuador-peru") 
+const peru_ecuador = document.getElementById("peru-ecuador") 
 
 //CUARTA RONDA
-const peru_argentina = document.getElementById("peru-argentina")
-const argentina_peru = document.getElementById("argentina-peru")
+const peru_uruguay = document.getElementById("peru-uruguay")
+const uruguay_peru = document.getElementById("uruguay-peru")
 
 //QUINTA RONDA
 //const bolivia_peru = document.getElementById("bolivia-peru")
@@ -51,37 +51,33 @@ let dni = localStorage.getItem("DNI");
 if(!dni){
    location.href = "../../index.html"
 }
+ 
 
 // BLOQUEANDO ELEMENTOS 
 
-//BLOQUEO PRIMERA FECHA
-//peru_paraguay.disabled = "false"
-//peru_paraguay.style.background = "#ccc"
-
-chile_peru.disabled = "true"
-chile_peru.style.background = "#ccc"
-
-peru_chile.disabled = "true"
-peru_chile.style.background = "#ccc"
-
-
 //BLOQUEO SEGUNDA FECHA
-peru_canada.disabled = "true"
-peru_canada.style.background = "#ccc"
+uruguay_peru.disabled = "false"
+uruguay_peru.style.background = "#ccc"
 
-canada_peru.disabled = "true"
-canada_peru.style.background = "#ccc"
+peru_uruguay.disabled = "true"
+peru_uruguay.style.background = "#ccc"
 
-//brasil_peru.disabled = "false"
-//brasil_peru.style.background = "#ccc"
+
+
+//BLOQUEO PRIMERA FECHA
+//colombia_peru.disabled = "true"
+//colombia_peru.style.background = "#ccc"
+
+//peru_colombia.disabled = "true"
+//peru_colombia.style.background = "#ccc"
 
 
 //BLOQUEO TERCERA FECHA
-peru_argentina.disabled = "true"
-peru_argentina.style.background = "#ccc"
+ecuador_peru.disabled = "true"
+ecuador_peru.style.background = "#ccc"
 
-argentina_peru.disabled = "true"
-argentina_peru.style.background = "#ccc"
+peru_ecuador.disabled = "true"
+peru_ecuador.style.background = "#ccc"
 
 //BLOQUEO QUINTA FECHA
 //bolivia_peru.disabled = "true"
@@ -101,7 +97,7 @@ argentina_peru.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-06-29T18:30:00");
+    let fechaLimite = new Date("2024-09-06T20:00:00");
     
    
     
@@ -119,14 +115,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorArgentina: argentina_peru.value,         
-         marcadorPeru: peru_argentina.value
+        marcadorPeru: peru_colombia.value,         
+         marcadorColombia: colombia_peru.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones9")
+    await crearPrediccion(objetoPrediccion,"predicciones10")
     
     
     Swal.fire(
