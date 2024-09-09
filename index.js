@@ -67,7 +67,7 @@ let asociados =[
 
 
 let fechaActual = new Date();
-let fechaLimite = new Date("2024-06-20T00:00:00");
+let fechaLimite = new Date("2024-09-15T00:00:00");
 
         
 
