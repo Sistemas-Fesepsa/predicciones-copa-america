@@ -56,7 +56,7 @@ if(!dni){
 // BLOQUEANDO ELEMENTOS 
 
 //BLOQUEO SEGUNDA FECHA
-uruguay_peru.disabled = "false"
+uruguay_peru.disabled = "true"
 uruguay_peru.style.background = "#ccc"
 
 peru_uruguay.disabled = "true"
@@ -65,19 +65,19 @@ peru_uruguay.style.background = "#ccc"
 
 
 //BLOQUEO PRIMERA FECHA
-//colombia_peru.disabled = "true"
-//colombia_peru.style.background = "#ccc"
+colombia_peru.disabled = "true"
+colombia_peru.style.background = "#ccc"
 
-//peru_colombia.disabled = "true"
-//peru_colombia.style.background = "#ccc"
+peru_colombia.disabled = "true"
+peru_colombia.style.background = "#ccc"
 
 
 //BLOQUEO TERCERA FECHA
-ecuador_peru.disabled = "true"
-ecuador_peru.style.background = "#ccc"
+//ecuador_peru.disabled = "true"
+//ecuador_peru.style.background = "#ccc"
 
-peru_ecuador.disabled = "true"
-peru_ecuador.style.background = "#ccc"
+//peru_ecuador.disabled = "true"
+//peru_ecuador.style.background = "#ccc"
 
 //BLOQUEO QUINTA FECHA
 //bolivia_peru.disabled = "true"
@@ -115,8 +115,8 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-        marcadorPeru: peru_colombia.value,         
-         marcadorColombia: colombia_peru.value
+        marcadorPeru: peru_ecuador.value,         
+         marcadorEcuador: ecuador_peru.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
