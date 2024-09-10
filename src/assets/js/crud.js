@@ -97,7 +97,7 @@ peru_colombia.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-08-10T15:30:00");
+    let fechaLimite = new Date("2024-10-10T15:30:00");
     
    
     
