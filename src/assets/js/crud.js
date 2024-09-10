@@ -97,7 +97,7 @@ peru_colombia.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-06-1T15:30:00");
+    let fechaLimite = new Date("2024-11-01T15:30:00");
     
    
     
@@ -122,7 +122,7 @@ btnRegistrarPrediccion.onclick = async function(){
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones11")
+    await crearPrediccion(objetoPrediccion,"predicciones12")
     
     
     Swal.fire(
