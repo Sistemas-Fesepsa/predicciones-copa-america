@@ -73,11 +73,11 @@ peru_colombia.style.background = "#ccc"
 
 
 //BLOQUEO TERCERA FECHA
-//ecuador_peru.disabled = "true"
-//ecuador_peru.style.background = "#ccc"
+ecuador_peru.disabled = "true"
+ecuador_peru.style.background = "#ccc"
 
-//peru_ecuador.disabled = "true"
-//peru_ecuador.style.background = "#ccc"
+peru_ecuador.disabled = "true"
+peru_ecuador.style.background = "#ccc"
 
 //BLOQUEO QUINTA FECHA
 //bolivia_peru.disabled = "true"
