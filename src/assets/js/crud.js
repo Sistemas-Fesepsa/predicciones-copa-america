@@ -115,7 +115,7 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-        marcadorPeru: peru_uruguay.value,         
+         marcadorPeru: peru_uruguay.value,         
          marcadorUruguay: uruguay_peru.value
    }
 
