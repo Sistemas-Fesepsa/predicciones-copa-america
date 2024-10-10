@@ -30,8 +30,8 @@ const ecuador_peru = document.getElementById("ecuador-peru")
 const peru_ecuador = document.getElementById("peru-ecuador") 
 
 //CUARTA RONDA
-//const peru_uruguay = document.getElementById("peru-uruguay")
-//const uruguay_peru = document.getElementById("uruguay-peru")
+const peru_uruguay = document.getElementById("peru-uruguay")
+const uruguay_peru = document.getElementById("uruguay-peru")
 
 //QUINTA RONDA
 //const bolivia_peru = document.getElementById("bolivia-peru")
