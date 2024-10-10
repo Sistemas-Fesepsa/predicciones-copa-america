@@ -56,11 +56,11 @@ if(!dni){
 // BLOQUEANDO ELEMENTOS 
 
 //BLOQUEO SEGUNDA FECHA
-uruguay_peru.disabled = "true"
-uruguay_peru.style.background = "#ccc"
+//uruguay_peru.disabled = "true"
+//uruguay_peru.style.background = "#ccc"
 
-peru_uruguay.disabled = "true"
-peru_uruguay.style.background = "#ccc"
+//peru_uruguay.disabled = "true"
+//peru_uruguay.style.background = "#ccc"
 
 
 
@@ -115,14 +115,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-        marcadorPeru: peru_ecuador.value,         
-         marcadorEcuador: ecuador_peru.value
+        marcadorPeru: peru_uruguay.value,         
+         marcadorUruguay: uruguay_peru.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones12")
+    await crearPrediccion(objetoPrediccion,"predicciones13")
     
     
     Swal.fire(
