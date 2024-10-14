@@ -56,11 +56,11 @@ if(!dni){
 // BLOQUEANDO ELEMENTOS 
 
 //BLOQUEO SEGUNDA FECHA
-//uruguay_peru.disabled = "true"
-//uruguay_peru.style.background = "#ccc"
+uruguay_peru.disabled = "true"
+uruguay_peru.style.background = "#ccc"
 
-//peru_uruguay.disabled = "true"
-//peru_uruguay.style.background = "#ccc"
+peru_uruguay.disabled = "true"
+peru_uruguay.style.background = "#ccc"
 
 
 
