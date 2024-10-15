@@ -22,8 +22,8 @@ const colombia_peru = document.getElementById("colombia-peru")
 const peru_colombia = document.getElementById("peru-colombia")
 
 //SEGUNDA RONDA
-//const peru_brasil = document.getElementById("peru-brasil") 
-//const brasil_peru = document.getElementById("brasil-peru") 
+const peru_brasil = document.getElementById("peru-brasil") 
+const brasil_peru = document.getElementById("brasil-peru") 
 
 //TERCERA RONDA
 const ecuador_peru = document.getElementById("ecuador-peru") 
@@ -115,8 +115,8 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorPeru: peru_uruguay.value,         
-         marcadorUruguay: uruguay_peru.value
+         marcadorBrasil: brasil_peru.value,         
+         marcadorPeru: peru_brasil.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
