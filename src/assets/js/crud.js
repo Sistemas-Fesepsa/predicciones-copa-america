@@ -62,6 +62,12 @@ uruguay_peru.style.background = "#ccc"
 peru_uruguay.disabled = "true"
 peru_uruguay.style.background = "#ccc"
 
+peru_brasil.disabled = "true"
+peru_brasil.style.background = "#ccc"
+
+brasil_peru.disabled = "true"
+brasil_peru.style.background = "#ccc"
+
 
 
 //BLOQUEO PRIMERA FECHA
