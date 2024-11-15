@@ -56,12 +56,12 @@ if(!dni){
 // BLOQUEANDO ELEMENTOS 
 
 //BLOQUEO SEGUNDA FECHA
-uruguay_peru.disabled = "true"
-uruguay_peru.style.background = "#ccc"
+//uruguay_peru.disabled = "true"
+//uruguay_peru.style.background = "#ccc"
 
-peru_uruguay.disabled = "true"
-peru_uruguay.style.background = "#ccc"
-
+//peru_uruguay.disabled = "true"
+//peru_uruguay.style.background = "#ccc"
+/*
 peru_brasil.disabled = "true"
 peru_brasil.style.background = "#ccc"
 
@@ -98,7 +98,7 @@ peru_ecuador.style.background = "#ccc"
 
 //venezuela_peru.disabled = "true"
 //venezuela_peru.style.background = "#ccc"
-
+*/
 
 btnRegistrarPrediccion.onclick = async function(){
  
