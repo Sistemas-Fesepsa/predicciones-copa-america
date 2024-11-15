@@ -103,7 +103,7 @@ peru_ecuador.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-11-01T15:30:00");
+    let fechaLimite = new Date("2024-11-15T20:00:00");
     
    
     
