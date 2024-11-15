@@ -18,8 +18,8 @@ const btnRegistrarPrediccion = document.getElementById("btn-prediccion");
 const btnSalir = document.getElementById("salir")
 
 // PRIMERA RONDA 
-const colombia_peru = document.getElementById("colombia-peru")
-const peru_colombia = document.getElementById("peru-colombia")
+const chile_peru = document.getElementById("chile-peru")
+const peru_chile = document.getElementById("peru-chile")
 
 //SEGUNDA RONDA
 const peru_brasil = document.getElementById("peru-brasil") 
@@ -71,8 +71,8 @@ brasil_peru.style.background = "#ccc"
 
 
 //BLOQUEO PRIMERA FECHA
-colombia_peru.disabled = "true"
-colombia_peru.style.background = "#ccc"
+//colombia_peru.disabled = "true"
+//colombia_peru.style.background = "#ccc"
 
 peru_colombia.disabled = "true"
 peru_colombia.style.background = "#ccc"
@@ -121,14 +121,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorBrasil: brasil_peru.value,         
-         marcadorPeru: peru_brasil.value
+         marcadorPeru: peru_chile.value,         
+         marcadorChile: chile_peru.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones14")
+    await crearPrediccion(objetoPrediccion,"predicciones15")
     
     
     Swal.fire(
