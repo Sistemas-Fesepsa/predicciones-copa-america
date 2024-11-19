@@ -22,8 +22,8 @@ const chile_peru = document.getElementById("chile-peru")
 const peru_chile = document.getElementById("peru-chile")
 
 //SEGUNDA RONDA
-const peru_brasil = document.getElementById("peru-brasil") 
-const brasil_peru = document.getElementById("brasil-peru") 
+const peru_argentina = document.getElementById("peru-argentina") 
+const argentina_peru = document.getElementById("argentina-peru") 
 
 //TERCERA RONDA
 const ecuador_peru = document.getElementById("ecuador-peru") 
@@ -121,14 +121,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorPeru: peru_chile.value,         
-         marcadorChile: chile_peru.value
+         marcadorArgentina: argentina_peru.value,         
+         marcadorPeru: peru_argentina.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones15")
+    await crearPrediccion(objetoPrediccion,"predicciones16")
     
     
     Swal.fire(
