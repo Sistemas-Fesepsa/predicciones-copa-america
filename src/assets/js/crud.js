@@ -33,6 +33,10 @@ const peru_ecuador = document.getElementById("peru-ecuador")
 const peru_uruguay = document.getElementById("peru-uruguay")
 const uruguay_peru = document.getElementById("uruguay-peru")
 
+const peru_colombia = document.getElementById("peru-colombia")
+const colombia_peru = document.getElementById("colombia-peru")
+
+
 //QUINTA RONDA
 //const bolivia_peru = document.getElementById("bolivia-peru")
 //const peru_bolivia = document.getElementById("peru-bolivia")
@@ -103,7 +107,7 @@ peru_ecuador.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2024-11-19T18:30:00");
+    let fechaLimite = new Date("2025-06-06T14:30:00");
     
    
     
@@ -121,14 +125,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorArgentina: argentina_peru.value,         
-         marcadorPeru: peru_argentina.value
+         marcadorArgentina: colombia_peru.value,         
+         marcadorPeru: peru_colombia.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones16")
+    await crearPrediccion(objetoPrediccion,"predicciones17")
     
     
     Swal.fire(
