@@ -107,7 +107,7 @@ peru_ecuador.style.background = "#ccc"
 btnRegistrarPrediccion.onclick = async function(){
  
     let fechaActual = new Date();
-    let fechaLimite = new Date("2025-06-06T14:30:00");
+    let fechaLimite = new Date("2025-10-06T20:00:00");
     
    
     
@@ -125,14 +125,14 @@ btnRegistrarPrediccion.onclick = async function(){
    const objetoPrediccion = {
          dni: localStorage.getItem("DNI"),
          fecha: serverTimestamp(),
-         marcadorColombia: colombia_peru.value,         
-         marcadorPeru: peru_colombia.value
+         marcadorPeru: peru_ecuador.value,         
+         marcadorEcuador: ecuador_peru.value
    }
 
     btnRegistrarPrediccion.disabled = "true"
     btnRegistrarPrediccion.style.opacity = "0.3" 
     
-    await crearPrediccion(objetoPrediccion,"predicciones17")
+    await crearPrediccion(objetoPrediccion,"predicciones18")
     
     
     Swal.fire(
